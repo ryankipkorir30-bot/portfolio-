@@ -7,7 +7,10 @@ body{
   transition:0.3s;
   line-height:1.7;
 }
-/*Dark mode class{background:#1e1e1e;}
+/*Dark mode class{
+     background:#1e1e1e;
+      color:white;
+}
 body.dark nav{background:#1e1e1e;}
 /*nav*/
 nav{
@@ -30,7 +33,7 @@ header{
 .profile-pic{
   width:120px;
   height:120px;
-  border border-radius:50%;
+  border-radius:50%;
   border:4px solid dodgerblue;
   object-fit:cover;
   margin-bottom:20px;
@@ -50,7 +53,7 @@ h1{font-size:2.5rem;margin:10px 0;}
   background:white;
   padding:25px;
   border-radius:15px;
-  box-shadow:0 5px 15pxrgba(0,0,0,0.09);
+  box-shadow:0 5px 15px rgba(0,0,0,0.09);
   transition:0.3s;
 }
 .card:hover{transform:translateY(-5px);}
